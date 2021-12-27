@@ -1,0 +1,49 @@
+@media only screen and (min-width: 1024px) {
+	.clock-base {
+		display: inline-block;
+		position: absolute;
+		height: 10rem;
+		bottom: 7rem;
+		top: 2rem;
+		left: 6rem;
+		right: 50%;
+		z-index: 1;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.clock-container {
+		position: absolute;
+		top: 2rem;
+		left: 6rem;
+		z-index: 2;
+	}
+}
+.react-clock {
+	display: block;
+	position: relative;
+}
+.react-clock,
+.react-clock *,
+.react-clock *:before,
+.react-clock *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.react-clock__hand {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	right: 50%;
+}
+.react-clock__hand__body {
+	position: absolute;
+	background-color: black;
+	transform: translateX(-50%);
+}
+
+.react-clock__second-hand__body {
+	background-color: black;
+}

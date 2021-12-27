@@ -1,0 +1,22 @@
+.lady {
+	position: absolute;
+	width: 19rem;
+	bottom: 0;
+	margin-left: 1rem;
+	z-index: 2;
+}
+@media only screen and (min-width: 580px) {
+	.lady {
+		width: 20rem;
+	}
+}
+@media only screen and (min-width: 620px) {
+	.lady {
+		width: 21rem;
+	}
+}
+@media only screen and (min-width: 700px) {
+	.lady {
+		width: 22rem;
+	}
+}

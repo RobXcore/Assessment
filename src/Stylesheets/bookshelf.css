@@ -1,0 +1,23 @@
+body {
+	overflow: hidden;
+}
+.containeer {
+	width: 50%;
+}
+.bookshelf {
+	position: absolute;
+	width: 34rem;
+	left: 6%;
+	top: 26.8%;
+	z-index: 1;
+}
+@media only screen and (min-width: 600px) {
+	.bookshelf {
+		top: 45%;
+		left: 50%;
+		width: 34rem;
+		height: 500px;
+		margin-top: -250px;
+		margin-left: -250px;
+	}
+}

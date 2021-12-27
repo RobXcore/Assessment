@@ -1,0 +1,21 @@
+.board {
+	position: absolute;
+	bottom: 2rem;
+	width: 28rem;
+	left: 2.6rem;
+}
+@media only screen and (min-width: 580px) {
+	.board {
+		width: 30rem;
+	}
+}
+@media only screen and (min-width: 620px) {
+	.board {
+		width: 32rem;
+	}
+}
+@media only screen and (min-width: 700px) {
+	.board {
+		width: 34rem;
+	}
+}

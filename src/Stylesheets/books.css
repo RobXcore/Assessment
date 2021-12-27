@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	gap: 1rem;
+	position: absolute;
+	top: 33%;
+	left: 13%;
+	z-index: 2;
+}
+.items {
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+}
+.icons {
+	display: flex;
+	list-style: none;
+	gap: 0.2rem;
+}
+.icons img {
+	width: 2rem;
+}
+@media only screen and (min-width: 600px) {
+	.container {
+		top: 45%;
+		left: 50%;
+		width: 34rem;
+		height: 500px;
+		margin-top: -115px;
+		margin-left: -215px;
+	}
+}

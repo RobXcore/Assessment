@@ -1,4 +1,3 @@
-Vizpert Assessment
+Virtual Bookshelf app
 
--Mandatory functionality working
--Clock working.
+This app showcases the use of React Beautiful DnD (Drag and drop).
